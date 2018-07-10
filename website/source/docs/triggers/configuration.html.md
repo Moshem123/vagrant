@@ -34,7 +34,7 @@ The trigger class takes various options.
 
 * `only_on` (string, regex, array) - Limit the trigger to these guests. Values can be a string or regex that matches a guest name.
 
-* `run_remote` (hash) - A collection of settings to run a inline or remote script with on the guest. These settings correspond to the [shell provisioner](/docs/provisioning/shell.html).
+* `run_remote` (hash) - A collection of settings to run an inline or remote script with on the guest. These settings correspond to the [shell provisioner](/docs/provisioning/shell.html).
 
 * `run` (hash) - A collection of settings to run a inline or remote script on the host. These settings correspond to the [shell provisioner](/docs/provisioning/shell.html). However, at the moment the only settings `run` takes advantage of are:
   + `args`
